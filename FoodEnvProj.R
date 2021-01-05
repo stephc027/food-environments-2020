@@ -4,7 +4,8 @@ library(tidyverse)
 library(readxl)
 library(plyr)
 
-setwd("C:/Users/sscha/Documents")
+#setwd("C:/Users/sscha/Documents")
+#Use/modify setwd function if needed, or keep commented out
 
 #Load FEA file (main dataset) and examine categories of data (for now we will ignore the supplemental data):
 fea_file<-"FoodEnvironmentAtlas 2020 revised.xls"
@@ -947,30 +948,6 @@ partialPlot(rf_health_nm,x.var="PCT_NHBLACK10",pred.data=train.health.nm,ylab="P
 partialPlot(rf_health_nm,x.var="PCT_SNAP12",pred.data=train.health.nm,ylab="Partial dependence")
 partialPlot(rf_health_nm,x.var="PC_SNAPBEN12",pred.data=train.health.nm,ylab="Partial dependence")
 
-
-
-#i<-as.data.frame(importance(rf_health_nm,type="1"))
-#i[order(-i[,1]),]
-#inp.met<-inp.met[order(-inp.met[,1]),]
-
-
-citations <- function(includeURL = TRUE, includeRStudio = TRUE) {
-  if(includeRStudio == TRUE) {
-    ref.rstudio <- RStudio.Version()$citation
-    if(includeURL == FALSE) {
-      ref.rstudio$url <- NULL;
-    }
-    print(ref.rstudio, style = 'text')
-    cat('\n')
-  }
-  
-  cit.list <- c('base', names(sessionInfo()$otherPkgs))
-  
-  for(i in 1:length(cit.list)) {
-    ref <- citation(cit.list[i])
-    print(ref, style = 'text')
-    cat('\n')
-  }
-}
+#See PPT, video, or article for full analysis.
 
 
