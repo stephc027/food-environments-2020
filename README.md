@@ -10,7 +10,8 @@ A central theme in the discussion of “food environments” is the idea of a �
 Keywords: food environment, food desert, USDA, clustering, BPCA, biplot, chloropleth, random forest
 
 
-![](food-environments-2020/SLC Food Env Clustering.pdf)
+![](pics/FD_map.png)
+
 
 Winner, undergrad/graduate division of 2020 New England Statistical Society NextGen data science day poster competition.
 Full article is pending journal review, link to publication to follow.
