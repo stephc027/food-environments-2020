@@ -10,7 +10,7 @@ A central theme in the discussion of “food environments” is the idea of a �
 Keywords: food environment, food desert, USDA, clustering, BPCA, biplot, chloropleth, random forest
 
 ## SELECTED MAPS
-# More fun images project code!
+(More fun images project code)
 ![](pics/FDmap.png)
 ![](pics/metro.png)
 ![](pics/nonmetro.png)
