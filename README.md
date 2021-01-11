@@ -10,11 +10,11 @@ A central theme in the discussion of “food environments” is the idea of a �
 Keywords: food environment, food desert, USDA, clustering, BPCA, biplot, chloropleth, random forest
 
 ## SELECTED MAPS
-(More images available in "pics"!)
-
 <img src="https://github.com/stephc027/food-environments-2020/blob/main/pics/FDmap.png?raw=true" width="500" height="250">
 <img src="https://github.com/stephc027/food-environments-2020/blob/main/pics/metro.png?raw=true" width="500" height="300">
 <img src="https://github.com/stephc027/food-environments-2020/blob/main/pics/nonmetro.png?raw=true" width="500" height="300">
 
-Winner, undergrad/graduate division of 2020 New England Statistical Society NextGen data science day poster competition.
-Full article is pending journal review, link to publication to follow.
+## CLUSTER BIPLOTS
+<img src="https://github.com/stephc027/food-environments-2020/blob/main/pics/Biplots%20clusters.png?raw=true" width="500">
+
+
